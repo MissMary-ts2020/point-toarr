@@ -13,7 +13,8 @@ int main(void) {
 	int* p2[5];//这是指针数组
 	//数组指针指向整个数组对象
 
-
+	char* ch[5];
+	char(*pa)[5] = &arr;//正确的数组指针写法
 
 	return 0;
 }
