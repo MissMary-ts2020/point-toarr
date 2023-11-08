@@ -14,7 +14,7 @@ int main(void) {
 	//数组指针指向整个数组对象
 
 	char* ch[5];
-	char(*pa)[5] = &arr;//正确的数组指针写法
+	char*(*pa)[5] = &arr;//正确的指针数组的指针的写法
 
 	return 0;
 }
